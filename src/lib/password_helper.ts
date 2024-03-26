@@ -8,6 +8,7 @@ export function GeneratePassword(length: number = 8): string {
     return password;
 }
 export function IsValid(password: string): boolean {
-    const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    // 16 char, at least 3 special characters and 3 numbers
+    const regex = ;
     return regex.test(password);
 }
