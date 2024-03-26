@@ -1,0 +1,13 @@
+[
+    {
+        "language": "en",
+        "messages": [
+            { "id": "MissingDataError", "text": "Missing data. One or more required fields are missing." },
+            { "id": "InvalidDataError", "text": "Invalid data. One or more fields contain invalid data." },
+            { "id": "InvalidPasswordError", "text": "Invalid password. The password is not valid." },
+            { "id": "EntryCreated", "text": "Thank you. Entry created successfully." },
+            { "id": "LoginMessage", "text": "Please enter your username and password." },
+            { "id": "LogoutMessage", "text": "You have been logged out." }
+        ]
+    }
+]
