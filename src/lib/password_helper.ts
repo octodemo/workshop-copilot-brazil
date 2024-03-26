@@ -8,7 +8,5 @@ export function GeneratePassword(length: number = 8): string {
     return password;
 }
 export function IsValid(password: string): boolean {
-    // 16 char, at least 3 special characters and 3 numbers
-    const regex = ;
-    return regex.test(password);
+    // Valida se a senha possui tamanho mínimo de 8 caracteres, ao menos 2 letras maíusculas, 2 números e 2 caracteres especiais
 }
