@@ -46,6 +46,15 @@ export const Header = async ({
           />
         </div>
       </div>
+      {/* Div with a blue signup button styled with TailwindCSS pointing to /signup */}
+      <div className="ml-2">
+        <a
+          href="/signup"
+          className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm"
+        >
+          Sign Up
+        </a>
+      </div>
     </Block>
   );
 };
