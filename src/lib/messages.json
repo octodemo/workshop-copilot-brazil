@@ -9,5 +9,16 @@
             { "id": "LoginMessage", "text": "Please enter your username and password." },
             { "id": "LogoutMessage", "text": "You have been logged out." }
         ]
+    },
+    {
+        "language": "pt",
+        "messages": [
+            { "id": "MissingDataError", "text": "Dados em falta. Um ou mais campos obrigatórios estão em falta." },
+            { "id": "InvalidDataError", "text": "Dados inválidos. Um ou mais campos contêm dados inválidos." },
+            { "id": "InvalidPasswordError", "text": "Palavra-passe inválida. A palavra-passe não é válida." },
+            { "id": "EntryCreated", "text": "Obrigado. Entrada criada com sucesso." },
+            { "id": "LoginMessage", "text": "Por favor, introduza o seu nome de utilizador e palavra-passe." },
+            { "id": "LogoutMessage", "text": "Sessão terminada." }
+        ]
     }
 ]
