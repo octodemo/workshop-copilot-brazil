@@ -7,6 +7,7 @@ export function GeneratePassword(length: number = 8): string {
     }
     return password;
 }
+
+
 export function IsValid(password: string): boolean {
-    // Valida se a senha possui tamanho mínimo de 8 caracteres, ao menos 2 letras maíusculas, 2 números e 2 caracteres especiais
 }
